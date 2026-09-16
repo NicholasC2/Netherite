@@ -1,0 +1,19 @@
+<Project>
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <!-- Put shared package versions here. -->
+
+    <!--
+    <PackageVersion
+        Include="Some.Package"
+        Version="1.2.3" />
+    -->
+
+  </ItemGroup>
+
+</Project>
