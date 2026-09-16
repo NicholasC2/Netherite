@@ -6,13 +6,9 @@
 
   <ItemGroup>
 
-    <!-- Put shared package versions here. -->
-
-    <!--
     <PackageVersion
-        Include="Some.Package"
-        Version="1.2.3" />
-    -->
+        Include="SDL3"
+        Version="3.2.0" />
 
   </ItemGroup>
 
