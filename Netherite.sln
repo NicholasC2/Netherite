@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FAAB01DF-A92A-4152-8477-0218632B92A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netherite.Client", "src\Netherite.Client\Netherite.Client.csproj", "{0C7C9D0C-E717-41E9-B981-24682B20F28D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netherite.Launcher", "src\Netherite.Launcher\Netherite.Launcher.csproj", "{8C0665F9-65CE-4984-9143-F5371C7C1B08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netherite.Server", "src\Netherite.Server\Netherite.Server.csproj", "{B59C1D0A-98D2-4FAF-83C2-1D139CD63FBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetherLib", "src\NetherLib\NetherLib.csproj", "{0C606E7F-6D3C-4FFD-B97F-7B7A9461D0D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C7C9D0C-E717-41E9-B981-24682B20F28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7C9D0C-E717-41E9-B981-24682B20F28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7C9D0C-E717-41E9-B981-24682B20F28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7C9D0C-E717-41E9-B981-24682B20F28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0665F9-65CE-4984-9143-F5371C7C1B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0665F9-65CE-4984-9143-F5371C7C1B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0665F9-65CE-4984-9143-F5371C7C1B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0665F9-65CE-4984-9143-F5371C7C1B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59C1D0A-98D2-4FAF-83C2-1D139CD63FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59C1D0A-98D2-4FAF-83C2-1D139CD63FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59C1D0A-98D2-4FAF-83C2-1D139CD63FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59C1D0A-98D2-4FAF-83C2-1D139CD63FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C606E7F-6D3C-4FFD-B97F-7B7A9461D0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C606E7F-6D3C-4FFD-B97F-7B7A9461D0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C606E7F-6D3C-4FFD-B97F-7B7A9461D0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C606E7F-6D3C-4FFD-B97F-7B7A9461D0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C7C9D0C-E717-41E9-B981-24682B20F28D} = {FAAB01DF-A92A-4152-8477-0218632B92A1}
+		{8C0665F9-65CE-4984-9143-F5371C7C1B08} = {FAAB01DF-A92A-4152-8477-0218632B92A1}
+		{B59C1D0A-98D2-4FAF-83C2-1D139CD63FBE} = {FAAB01DF-A92A-4152-8477-0218632B92A1}
+		{0C606E7F-6D3C-4FFD-B97F-7B7A9461D0D4} = {FAAB01DF-A92A-4152-8477-0218632B92A1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AFD60F9-4C66-46D4-8440-896ED6C533AD}
+	EndGlobalSection
+EndGlobal

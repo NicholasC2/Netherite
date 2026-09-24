@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageVersion Include="SDL3-CS" Version="3.4.16.1" />
+    <PackageVersion Include="SDL3-CS.Windows" Version="3.4.16.0" />
+    <PackageVersion Include="SDL3-CS.Linux" Version="3.4.16.0" />
+    <PackageVersion Include="SDL3-CS.MacOS" Version="3.4.16.0" />
+  </ItemGroup>
+</Project>
