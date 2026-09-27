@@ -6,4 +6,5 @@ edition = "2024"
 [dependencies]
 netherlib = { path = "../NetherLib" }
 
-sdl3 = "0.17"
+sdl3 = "0.20.0"
+gl = "0.14"
