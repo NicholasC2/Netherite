@@ -1,0 +1,13 @@
+[workspace]
+resolver = "3"
+
+members = [
+    "NetherLib",
+    "Client",
+    "Server",
+]
+
+default-members = [
+    "Client",
+    "Server",
+]
