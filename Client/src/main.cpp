@@ -1,5 +1,7 @@
 #include <SDL3/SDL.h>
 #include <glad/gl.h>
+#include <ft2build.h>
+#include FT_FREETYPE_H
 
 #include <glm/glm.hpp>
 
@@ -49,6 +51,13 @@ int main() {
         return -1;
     }
 
+    FT_Library ft;
+
+    if (FT_Init_FreeType(&ft)) {
+        SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Failed to initialize FreeType", "", nullptr);
+
+        return -1;
+    }
 
     bool running = true;
 

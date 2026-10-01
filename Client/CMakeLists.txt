@@ -1,5 +1,6 @@
 find_package(SDL3 REQUIRED CONFIG)
 find_package(OpenGL REQUIRED)
+find_package(Freetype REQUIRED)
 
 add_executable(NetheriteClient
     src/main.cpp
@@ -17,4 +18,5 @@ target_link_libraries(NetheriteClient
         Nether
         SDL3::SDL3
         OpenGL::GL
+        Freetype::Freetype
 )
